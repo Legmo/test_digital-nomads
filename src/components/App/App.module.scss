@@ -1,0 +1,13 @@
+@import '../variables';
+
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+	background-color: $color-background;
+	font-size: $font-size-basic;
+	color: $color-text-light;
+}
